@@ -39,7 +39,7 @@ const AnimatedTextCharacter = ({ text }: { text: string }) => {
     return (
         <motion.div
             className="animated-text-chars"
-            style={{ overflow: "hidden", display: "flex", fontSize: "2rem" }}
+            style={{ overflow: "hidden", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "2rem" }}
             variants={container}
             initial="hidden"
             animate="visible"

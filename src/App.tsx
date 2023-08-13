@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div>
       <AnimatedTextChars text={`Hello how are you doing`} />
-      {/* <AnimatedTextWords text={`Animated events`} /> */}
+      <AnimatedTextWords text={`Animated events`} />
     </div>
   )
 }
